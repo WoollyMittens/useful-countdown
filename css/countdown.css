@@ -1,0 +1,104 @@
+/*
+	Example Styling for a Countdown Timer
+*/
+@media all {
+  /*
+  	Countdown Layout
+  */
+  #countdown {
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+  }
+  #countdown span {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: solid 1px #333;
+    display: inline-block;
+    width: 1em;
+    height: 1.3em;
+    line-height: 1.2em;
+    margin: 0 0.1em 0 0;
+    text-align: center;
+  }
+
+  /*
+  	Optional Digit Styles
+  */
+  #countdown .digit_0 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(90%, #ffffff), color-stop(90%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+  }
+  #countdown .digit_1 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(80%, #ffffff), color-stop(80%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+  }
+  #countdown .digit_2 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(70%, #ffffff), color-stop(70%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+  }
+  #countdown .digit_3 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(60%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+  }
+  #countdown .digit_4 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(50%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+  }
+  #countdown .digit_5 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(40%, #ffffff), color-stop(40%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+  }
+  #countdown .digit_6 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(30%, #ffffff), color-stop(30%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+  }
+  #countdown .digit_7 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(20%, #ffffff), color-stop(20%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+  }
+  #countdown .digit_8 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(10%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+  }
+  #countdown .digit_9 {
+    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(0%, #ffffff), color-stop(0%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+  }
+}
