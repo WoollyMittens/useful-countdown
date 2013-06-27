@@ -2,6 +2,8 @@
 
 Counts down to a future date using text and class names to add styling to.
 
+Try the <a href="http://www.woollymittens.nl/useful/default.php?url=countdown">countdown demo</a>.
+
 ## How to use the script
 
 The stylesheet is best included in the header of the document.
