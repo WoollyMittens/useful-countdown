@@ -1,12 +1,9 @@
 /*
 	Example Styling for a Countdown Timer
 */
-
 @media all {
-
 	@import "compass/css3";
 	@import "compass/utilities";
-
 	/*
 		Countdown Layout
 	*/
@@ -26,7 +23,6 @@
 			text-align : center;
 		}
 	}
-
 	/*
 		Optional Digit Styles
 	*/
@@ -42,17 +38,10 @@
 		.digit_8 { @include background(#fff linear-gradient(to bottom, #fff 0%, #fff 10%, #69c 10%, #9cf 100%)); }
 		.digit_9 { @include background(#fff linear-gradient(to bottom, #fff 0%, #fff 0%, #69c 0%, #9cf 100%)); }
 	}
-
 }
-
 @media (min-width: 1200px) {}
-
 @media (min-width: 980px) and (max-width: 1199px) {}
-
 @media (min-width: 768px) and (max-width: 979px) {}
-
 @media (max-width: 767px) {}
-
 @media (max-width: 480px) {}
-
 @media print {}
