@@ -35,17 +35,16 @@
 					<span>0</span><span>0</span>&nbsp;Mins&nbsp;&nbsp;&nbsp;
 					<span>0</span><span>0</span>&nbsp;Secs&nbsp;&nbsp;&nbsp;
 				</div>
-				<script src="./js/useful.countdown.js"></script>
+				<script src="./js/countdown.min.js"></script>
 				<script>
 				//<!--
-					useful.css.select({
-						rule : '#countdown',
-						handler : useful.countdown.start,
-						data : {
-							'end' : new Date('December 24, 2013 23:59:00'),
-							'onEnd' : function(){}
-						}
+					// create a new instance of the script
+					var countdown = new useful.Countdown( document.getElementById('countdown'), {
+						'end' : new Date('December 24, 2013 23:59:00'),
+						'onEnd' : function(){}
 					});
+					// start the instance
+					countdown.start();
 				//-->
 				</script>
 				<!-- Cut above this -->
