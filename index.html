@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>useful.countdown.js: Animated Countdown Timer</title>
+		<title>useful-countdown.js: Animated Countdown Timer</title>
 		<style>
 			html { font-family:Sans-Serif; font-size:75%; height:100%; }
 			body { _height:100%; line-height:180%; margin:0; min-height:100%; padding:1%; }
@@ -15,7 +15,7 @@
 			<meta http-equiv="imagetoolbar" content="no"/>
 			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
 		<![endif]-->
 	</head>
 	<body>
@@ -28,19 +28,19 @@
 			<aside>
 
 				<!-- Cut below this -->
-				<style>@import url("./css/countdown.css")</style>
+				<style>@import url("./css/useful-countdown.css")</style>
 				<div id="countdown">
 					<span>0</span><span>0</span><span>0</span>&nbsp;Days&nbsp;&nbsp;&nbsp;
 					<span>0</span><span>0</span>&nbsp;Hrs&nbsp;&nbsp;&nbsp;
 					<span>0</span><span>0</span>&nbsp;Mins&nbsp;&nbsp;&nbsp;
 					<span>0</span><span>0</span>&nbsp;Secs&nbsp;&nbsp;&nbsp;
 				</div>
-				<script src="./js/countdown.min.js"></script>
+				<script src="./js/useful-countdown.js"></script>
 				<script>
 				//<!--
 					// create a new instance of the script
 					var countdown = new useful.Countdown( document.getElementById('countdown'), {
-						'end' : new Date('December 24, 2013 23:59:00'),
+						'end' : new Date('December 31, 2014 23:59:59'),
 						'onEnd' : function(){}
 					});
 					// start the instance
