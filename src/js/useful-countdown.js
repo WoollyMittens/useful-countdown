@@ -28,6 +28,8 @@
 					context.update();
 				}
 			}, 200);
+			// disable the start function so it can't be started twice
+			this.start = function () {};
 		};
 		this.update = function () {
 			var context = this;
@@ -84,6 +86,8 @@
 			context.cfg.digits[8].className = 'digit_' + reverseSeconds.substr(0, 1);
 			context.cfg.digits[8].innerHTML = reverseSeconds.substr(0, 1);
 		};
+		// go
+		this.start();
 	};
 
 }(window.useful = window.useful || {}));

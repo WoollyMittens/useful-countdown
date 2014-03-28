@@ -5,17 +5,19 @@
   /*
   	Countdown Layout
   */
+  /* line 10, ../../src/scss/useful-countdown.scss */
   #countdown {
     font-size: 2em;
     line-height: 2em;
     text-align: center;
   }
+  /* line 14, ../../src/scss/useful-countdown.scss */
   #countdown span {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -31,74 +33,84 @@
   /*
   	Optional Digit Styles
   */
+  /* line 30, ../../src/scss/useful-countdown.scss */
   #countdown .digit_0 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(90%, #ffffff), color-stop(90%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(90%, #ffffff), color-stop(90%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
   }
+  /* line 31, ../../src/scss/useful-countdown.scss */
   #countdown .digit_1 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(80%, #ffffff), color-stop(80%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(80%, #ffffff), color-stop(80%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
   }
+  /* line 32, ../../src/scss/useful-countdown.scss */
   #countdown .digit_2 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(70%, #ffffff), color-stop(70%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(70%, #ffffff), color-stop(70%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
   }
+  /* line 33, ../../src/scss/useful-countdown.scss */
   #countdown .digit_3 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(60%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(60%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
   }
+  /* line 34, ../../src/scss/useful-countdown.scss */
   #countdown .digit_4 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(50%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(50%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
   }
+  /* line 35, ../../src/scss/useful-countdown.scss */
   #countdown .digit_5 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(40%, #ffffff), color-stop(40%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(40%, #ffffff), color-stop(40%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
   }
+  /* line 36, ../../src/scss/useful-countdown.scss */
   #countdown .digit_6 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(30%, #ffffff), color-stop(30%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #ffffff), color-stop(30%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
   }
+  /* line 37, ../../src/scss/useful-countdown.scss */
   #countdown .digit_7 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(20%, #ffffff), color-stop(20%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(20%, #ffffff), color-stop(20%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
   }
+  /* line 38, ../../src/scss/useful-countdown.scss */
   #countdown .digit_8 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(10%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(10%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
   }
+  /* line 39, ../../src/scss/useful-countdown.scss */
   #countdown .digit_9 {
-    background: white -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(0%, #ffffff), color-stop(0%, #6699cc), color-stop(100%, #99ccff));
-    background: white -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
-    background: white -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
-    background: white -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
-    background: white linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+    background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(0%, #ffffff), color-stop(0%, #6699cc), color-stop(100%, #99ccff));
+    background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+    background: white -moz-linear-gradient(top, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+    background: white -o-linear-gradient(top, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+    background: white linear-gradient(top, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
   }
 }
