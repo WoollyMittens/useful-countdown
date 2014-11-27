@@ -28,11 +28,10 @@ To enable the use of HTML5 tags in Internet Explorer 8 and lower, include *html5
 
 ## How to start the script
 
-This is the safest way of starting the script, but allows for only one target element at a time.
-
 ```javascript
-var countdown = new useful.Countdown( document.getElementById('id'), {
-	'end' : new Date('December 24, 2013 23:59:00'),
+var countdown = new useful.Countdown().init({
+	'element' : document.getElementById('id'),
+	'end' : new Date('December 31, 2015 23:59:59'),
 	'onEnd' : function(){}
 });
 ```
@@ -48,7 +47,7 @@ var countdown = new useful.Countdown( document.getElementById('id'), {
 ### Update
 
 ```javascript
-cropper.update();
+countdown.update();
 ```
 
 Update the clock.
@@ -70,4 +69,3 @@ The following commands are available for development:
 ## License
 
 This work is licensed under a Creative Commons Attribution 3.0 Unported License. The latest version of this and other scripts by the same author can be found at http://www.woollymittens.nl/
-

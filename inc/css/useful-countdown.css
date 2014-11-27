@@ -9,9 +9,10 @@
 }
 /* line 10, ../../src/scss/useful-countdown.scss */
 #countdown span {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 60%, #99ccff 100%);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   border: solid 1px #333;
   display: inline-block;
@@ -27,61 +28,71 @@
 */
 /* line 26, ../../src/scss/useful-countdown.scss */
 #countdown .digit_0 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(90%, #ffffff), color-stop(90%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iOTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI5MCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(90%, #ffffff), color-stop(90%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 90%, #6699cc 90%, #99ccff 100%);
 }
 /* line 27, ../../src/scss/useful-countdown.scss */
 #countdown .digit_1 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(80%, #ffffff), color-stop(80%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iODAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(80%, #ffffff), color-stop(80%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #6699cc 80%, #99ccff 100%);
 }
 /* line 28, ../../src/scss/useful-countdown.scss */
 #countdown .digit_2 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(70%, #ffffff), color-stop(70%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(70%, #ffffff), color-stop(70%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 70%, #6699cc 70%, #99ccff 100%);
 }
 /* line 29, ../../src/scss/useful-countdown.scss */
 #countdown .digit_3 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(60%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iNjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(60%, #ffffff), color-stop(60%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, #6699cc 60%, #99ccff 100%);
 }
 /* line 30, ../../src/scss/useful-countdown.scss */
 #countdown .digit_4 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(50%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(50%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #6699cc 50%, #99ccff 100%);
 }
 /* line 31, ../../src/scss/useful-countdown.scss */
 #countdown .digit_5 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(40%, #ffffff), color-stop(40%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iNDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI0MCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(40%, #ffffff), color-stop(40%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6699cc 40%, #99ccff 100%);
 }
 /* line 32, ../../src/scss/useful-countdown.scss */
 #countdown .digit_6 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #ffffff), color-stop(30%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMzAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSIzMCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #ffffff), color-stop(30%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #6699cc 30%, #99ccff 100%);
 }
 /* line 33, ../../src/scss/useful-countdown.scss */
 #countdown .digit_7 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(20%, #ffffff), color-stop(20%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSIyMCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(20%, #ffffff), color-stop(20%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #6699cc 20%, #99ccff 100%);
 }
 /* line 34, ../../src/scss/useful-countdown.scss */
 #countdown .digit_8 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(10%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSIxMCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OWNjZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(10%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #6699cc 10%, #99ccff 100%);
 }
 /* line 35, ../../src/scss/useful-countdown.scss */
 #countdown .digit_9 {
-  background: white -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(0%, #ffffff), color-stop(0%, #6699cc), color-stop(100%, #99ccff));
-  background: white -webkit-linear-gradient(top, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
-  background: white linear-gradient(top, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+  background: #fff url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNjY5OWNjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTljY2ZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: #fff -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(0%, #ffffff), color-stop(0%, #6699cc), color-stop(100%, #99ccff));
+  background: #fff -webkit-linear-gradient(top, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
+  background: #fff linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #6699cc 0%, #99ccff 100%);
 }

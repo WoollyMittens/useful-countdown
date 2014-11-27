@@ -39,7 +39,8 @@
 				<script>
 				//<!--
 					// create a new instance of the script
-					var countdown = new useful.Countdown( document.getElementById('countdown'), {
+					var countdown = new useful.Countdown().init({
+						'element' : document.getElementById('countdown'),
 						'end' : new Date('December 31, 2014 23:59:59'),
 						'onEnd' : function(){}
 					});
