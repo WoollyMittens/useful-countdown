@@ -1,5 +1,5 @@
-@import "compass/css3";
-@import "compass/utilities";
+
+
 /*
 	Countdown Layout
 */
@@ -8,8 +8,8 @@
 	line-height : 2em;
 	text-align : center;
 	span {
-		@include background(#fff linear-gradient(top, #fff 0%, #fff 50%, #69c 60%, #9cf 100%));
-		@include box-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+		background: #fff linear-gradient(top, #fff 0%, #fff 50%, #69c 60%, #9cf 100%);
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 		border : solid 1px #333;
 		display : inline-block;
 		width : 1em;
@@ -23,14 +23,14 @@
 	Optional Digit Styles
 */
 #countdown {
-	.digit_0 { @include background(#fff linear-gradient(top, #fff 0%, #fff 90%, #69c 90%, #9cf 100%)); }
-	.digit_1 { @include background(#fff linear-gradient(top, #fff 0%, #fff 80%, #69c 80%, #9cf 100%)); }
-	.digit_2 { @include background(#fff linear-gradient(top, #fff 0%, #fff 70%, #69c 70%, #9cf 100%)); }
-	.digit_3 { @include background(#fff linear-gradient(top, #fff 0%, #fff 60%, #69c 60%, #9cf 100%)); }
-	.digit_4 { @include background(#fff linear-gradient(top, #fff 0%, #fff 50%, #69c 50%, #9cf 100%)); }
-	.digit_5 { @include background(#fff linear-gradient(top, #fff 0%, #fff 40%, #69c 40%, #9cf 100%)); }
-	.digit_6 { @include background(#fff linear-gradient(top, #fff 0%, #fff 30%, #69c 30%, #9cf 100%)); }
-	.digit_7 { @include background(#fff linear-gradient(top, #fff 0%, #fff 20%, #69c 20%, #9cf 100%)); }
-	.digit_8 { @include background(#fff linear-gradient(top, #fff 0%, #fff 10%, #69c 10%, #9cf 100%)); }
-	.digit_9 { @include background(#fff linear-gradient(top, #fff 0%, #fff 0%, #69c 0%, #9cf 100%)); }
+	.digit_0 { background: #fff linear-gradient(top, #fff 0%, #fff 90%, #69c 90%, #9cf 100%); }
+	.digit_1 { background: #fff linear-gradient(top, #fff 0%, #fff 80%, #69c 80%, #9cf 100%); }
+	.digit_2 { background: #fff linear-gradient(top, #fff 0%, #fff 70%, #69c 70%, #9cf 100%); }
+	.digit_3 { background: #fff linear-gradient(top, #fff 0%, #fff 60%, #69c 60%, #9cf 100%); }
+	.digit_4 { background: #fff linear-gradient(top, #fff 0%, #fff 50%, #69c 50%, #9cf 100%); }
+	.digit_5 { background: #fff linear-gradient(top, #fff 0%, #fff 40%, #69c 40%, #9cf 100%); }
+	.digit_6 { background: #fff linear-gradient(top, #fff 0%, #fff 30%, #69c 30%, #9cf 100%); }
+	.digit_7 { background: #fff linear-gradient(top, #fff 0%, #fff 20%, #69c 20%, #9cf 100%); }
+	.digit_8 { background: #fff linear-gradient(top, #fff 0%, #fff 10%, #69c 10%, #9cf 100%); }
+	.digit_9 { background: #fff linear-gradient(top, #fff 0%, #fff 0%, #69c 0%, #9cf 100%); }
 }
