@@ -2,7 +2,7 @@
 
 Counts down to a future date using text and class names to add styling to.
 
-Try the <a href="http://www.woollymittens.nl/useful/default.php?url=useful-countdown">demo</a>.
+Try the <a href="http://www.woollymittens.nl/default.php?url=useful-countdown">demo</a>.
 
 ## How to include the script
 
