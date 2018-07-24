@@ -1,4 +1,4 @@
-# useful.countdown.js: Animated Countdown Timer
+# countdown.js: Animated Countdown Timer
 
 Counts down to a future date using text and class names to add styling to.
 
@@ -9,27 +9,19 @@ Try the <a href="http://www.woollymittens.nl/default.php?url=useful-countdown">d
 The stylesheet is best included in the header of the document.
 
 ```html
-<link rel="stylesheet" href="./css/useful-countdown.css"/>
+<link rel="stylesheet" href="./css/countdown.css"/>
 ```
 
 This include can be added to the header or placed inline before the script is invoked.
 
 ```html
-<script src="./js/useful-countdown.js"></script>
-```
-
-To enable the use of HTML5 tags in Internet Explorer 8 and lower, include *html5.js*.
-
-```html
-<!--[if lte IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<script src="./js/countdown.js"></script>
 ```
 
 ## How to start the script
 
 ```javascript
-var countdown = new useful.Countdown().init({
+var countdown = new Countdown({
 	'element' : document.getElementById('id'),
 	'end' : new Date('December 31, 2015 23:59:59'),
 	'onEnd' : function(){}

@@ -1,20 +1,15 @@
 /*
 	Source:
-	van Creij, Maurice (2014). "useful.countdown.js: A simple countdown timer.", version 20141127, http://www.woollymittens.nl/.
+	van Creij, Maurice (2018). "countdown.js: A simple countdown timer.", http://www.woollymittens.nl/.
 
 	License:
 	This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 */
 
-// create the global object if needed
-var useful = useful || {};
-
-// extend the global object
-useful.Countdown = function () {
+// establish the class
+var Countdown = function (config) {
 
 	// PROPERTIES
-
-	"use strict";
 
 	// METHODS
 
@@ -93,9 +88,13 @@ useful.Countdown = function () {
 		this.config.digits[8].innerHTML = reverseSeconds.substr(0, 1);
 	};
 
+	// EVENTS
+
+	this.init(config);
+
 };
 
 // return as a require.js module
 if (typeof module !== 'undefined') {
-	exports = module.exports = useful.Countdown;
+	exports = module.exports = Countdown;
 }
