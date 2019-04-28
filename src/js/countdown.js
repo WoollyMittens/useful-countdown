@@ -95,5 +95,5 @@ var Countdown = function (config) {
 };
 
 // return as a require.js module
-if (typeof define != 'undefined') define(['countdown'], function () { return Countdown });
+if (typeof define != 'undefined') define([], function () { return Countdown });
 if (typeof module != 'undefined') module.exports = Countdown;

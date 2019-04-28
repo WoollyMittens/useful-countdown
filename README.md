@@ -9,14 +9,30 @@ Try the <a href="http://www.woollymittens.nl/default.php?url=useful-countdown">d
 The stylesheet is best included in the header of the document.
 
 ```html
-<link rel="stylesheet" href="./css/countdown.css"/>
+<link rel="stylesheet" href="css/countdown.css"/>
 ```
 
 This include can be added to the header or placed inline before the script is invoked.
 
 ```html
-<script src="./js/countdown.js"></script>
+<script src="js/countdown.js"></script>
 ```
+
+Or use [Require.js](https://requirejs.org/).
+
+```js
+requirejs([
+	'js/countdown.js'
+], function(Countdown) {
+	...
+});
+```
+
+Or import into an MVC framework.
+
+```js
+var Countdown = require('js/countdown.js');
+``
 
 ## How to start the script
 
