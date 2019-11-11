@@ -33,10 +33,12 @@
 				<script>
 				//<!--
 					// create a new instance of the script
-					var countdown = new Countdown({
-						'element' : document.getElementById('countdown'),
-						'end' : new Date('December 31, ' + (new Date().getFullYear()) + ' 23:59:59'),
-						'onEnd' : function(){}
+					countdown({
+						'digits' : document.querySelectorAll('#countdown span'),
+						'date' : new Date('December 31, ' + (new Date().getFullYear()) + ' 23:59:59'),
+						'onEnd' : function(){
+							document.getElementById('countdown').innerHTML = 'Party Time!';
+						}
 					});
 				//-->
 				</script>

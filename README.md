@@ -23,7 +23,7 @@ Or use [Require.js](https://requirejs.org/).
 ```js
 requirejs([
 	'js/countdown.js'
-], function(Countdown) {
+], function(countdown) {
 	...
 });
 ```
@@ -31,34 +31,24 @@ requirejs([
 Or import into an MVC framework.
 
 ```js
-var Countdown = require('js/countdown.js');
+var countdown = require('js/countdown.js');
 ``
 
 ## How to start the script
 
 ```javascript
 var countdown = new Countdown({
-	'element' : document.getElementById('id'),
-	'end' : new Date('December 31, 2015 23:59:59'),
+	'digits' : document.getElementById('id'),
+	'date' : new Date('December 31, 2015 23:59:59'),
 	'onEnd' : function(){}
 });
 ```
 
-**id : {string}** - The ID attribute of an element somewhere in the document.
+**digits : {CSS selector}** - A CSS selector for the digits in the display.
 
-**end : {date}** - A date object containing the end date and time.
+**date : {Date}** - A date object containing the end date and time.
 
-**onEnd : {function}** - A function that will be executed when the time limit expires.
-
-## How to control the script
-
-### Update
-
-```javascript
-countdown.update();
-```
-
-Update the clock.
+**onEnd : {Function}** - A function that will be executed when the time limit expires.
 
 ## How to build the script
 

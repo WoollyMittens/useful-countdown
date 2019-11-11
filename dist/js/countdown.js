@@ -7,93 +7,37 @@
 */
 
 // establish the class
-var Countdown = function (config) {
-
-	// PROPERTIES
-
-	// METHODS
-
-	this.init = function (config) {
-		// store the configuration
-		this.config = config;
-		this.element = config.element;
-		// gather all 8 of the digits
-		this.config.digits = this.element.getElementsByTagName('span');
-		this.config.current = new Date().getSeconds();
-		// start the countdown
-		var _this = this;
-		this.config.interval = setInterval(function () {
-			var seconds = new Date().getSeconds();
-			if (seconds !== _this.config.current) {
-				_this.config.current = seconds;
-				_this.update();
-			}
-		}, 200);
-		// return the object
-		return this;
-	};
-
-	this.update = function () {
-		// get the current time
-		var current = new Date();
-		// subtract the two dates
-		var rest = this.config.end.getTime() - current.getTime();
-		// if there is no time left
-		if (rest <= 0) {
-			// halt the counter
-			rest = 0;
-			// trigger the end event
-			this.config.onEnd();
-			// stop the counter
-			clearInterval(this.config.interval);
+var countdown = function (cfg) {
+	setInterval(function() {
+    var currentTime = new Date().getTime();
+    var targetTime = cfg.date.getTime();
+		// if we're not there yet
+		if (currentTime <= targetTime) {
+	    // calculate the time differences
+	    var days = (targetTime - currentTime) / 1000 / 60 / 60 / 24;
+	    var hours = (days - Math.floor(days)) * 24;
+	    var minutes = (hours - Math.floor(hours)) * 60;
+	    var seconds = (minutes - Math.floor(minutes)) * 60;
+	    // format the output
+	    days = ('00' + Math.floor(days)).slice(-3);
+	    hours = ('0' + Math.floor(hours)).slice(-2);
+	    minutes = ('0' + Math.floor(minutes)).slice(-2);
+	    seconds = ('0' + Math.floor(seconds)).slice(-2);
+	    // distribute the digits
+	    var digits = (days + hours + minutes + seconds).split('');
+	    for (var a = 0, b = digits.length; a < b; a += 1) {
+	      cfg.digits[a].innerHTML = digits[a];
+	      cfg.digits[a].className = 'digit_' + digits[a];
+	    }
 		}
-		// report the days
-		var days = rest / 86400000;
-		rest = rest % 86400000;
-		var reverseDays = parseInt(days, 10).toString().split('').reverse().join('');
-		reverseDays = (reverseDays.length < 3) ? reverseDays + '00' : reverseDays;
-		reverseDays = (reverseDays.length < 2) ? reverseDays + '0' : reverseDays;
-		this.config.digits[0].className = 'digit_' + reverseDays.substr(2, 1);
-		this.config.digits[0].innerHTML = reverseDays.substr(2, 1);
-		this.config.digits[1].className = 'digit_' + reverseDays.substr(1, 1);
-		this.config.digits[1].innerHTML = reverseDays.substr(1, 1);
-		this.config.digits[2].className = 'digit_' + reverseDays.substr(0, 1);
-		this.config.digits[2].innerHTML = reverseDays.substr(0, 1);
-		// report the hours
-		var hours = rest / 3600000;
-		rest = rest % 3600000;
-		var reverseHours = parseInt(hours, 10).toString().split('').reverse().join('');
-		reverseHours = (reverseHours.length < 2) ? reverseHours + '0' : reverseHours;
-		this.config.digits[3].className = 'digit_' + reverseHours.substr(1, 1);
-		this.config.digits[3].innerHTML = reverseHours.substr(1, 1);
-		this.config.digits[4].className = 'digit_' + reverseHours.substr(0, 1);
-		this.config.digits[4].innerHTML = reverseHours.substr(0, 1);
-		// report the minutes
-		var minutes = rest / 60000;
-		rest = rest % 60000;
-		var reverseMinutes = parseInt(minutes, 10).toString().split('').reverse().join('');
-		reverseMinutes = (reverseMinutes.length < 2) ? reverseMinutes + '0' : reverseMinutes;
-		this.config.digits[5].className = 'digit_' + reverseMinutes.substr(1, 1);
-		this.config.digits[5].innerHTML = reverseMinutes.substr(1, 1);
-		this.config.digits[6].className = 'digit_' + reverseMinutes.substr(0, 1);
-		this.config.digits[6].innerHTML = reverseMinutes.substr(0, 1);
-		// report the seconds
-		var seconds = rest / 1000;
-		rest = rest % 1000;
-		var reverseSeconds = parseInt(seconds, 10).toString().split('').reverse().join('');
-		reverseSeconds = (reverseSeconds.length < 2) ? reverseSeconds + '0' : reverseSeconds;
-		this.config.digits[7].className = 'digit_' + reverseSeconds.substr(1, 1);
-		this.config.digits[7].innerHTML = reverseSeconds.substr(1, 1);
-		this.config.digits[8].className = 'digit_' + reverseSeconds.substr(0, 1);
-		this.config.digits[8].innerHTML = reverseSeconds.substr(0, 1);
-	};
-
-	// EVENTS
-
-	this.init(config);
-
+		// else
+		else {
+			// fire the event
+			cfg.onEnd();
+		}
+  }, 1000);
 };
 
 // return as a require.js module
-if (typeof define != 'undefined') define([], function () { return Countdown });
-if (typeof module != 'undefined') module.exports = Countdown;
+if (typeof define != 'undefined') define([], function () { return countdown });
+if (typeof module != 'undefined') module.exports = countdown;
