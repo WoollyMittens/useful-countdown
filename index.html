@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <title>Redirect to demo</title>
-		<script>document.location.replace('./dist/');</script>
+		<meta charset="UTF-8" />
+		<title>countdown.js: Animated Countdown Timer</title>
+		<style>
+			html { font-family:Sans-Serif; font-size:75%; height:100%; }
+			body { _height:100%; line-height:180%; margin:0; min-height:100%; padding:1%; }
+			.example { max-width:960px; margin:0 auto; padding:0; clear:both; }
+			.example > article, .example > aside { width:98%; padding:2%; }
+			.example-left > article, .example-left > aside { width:48%; padding:1%; float:left; }
+			.example-right > article, .example-right > aside { width:48%; padding:1%; float:right; }
+		</style>
 	</head>
 	<body>
-		<a href="./dist/">Start</a>
+		<section class="example example-full">
+			<article>
+				<h2>Animated Countdown Timer</h2>
+				<p>Counts down to a future date using text and class names to add styling to.</p>
+				<p><a class="button downloadButton" href="http://github.com/WoollyMittens/useful-countdown" target="_blank">Download (GitHub)</a></p>
+			</article>
+			<aside>
+
+				<!-- Cut below this -->
+				<style>@import url("./css/countdown.css");</style>
+				<div id="countdown">
+					<span>0</span><span>0</span><span>0</span>&nbsp;Days&nbsp;&nbsp;&nbsp;
+					<span>0</span><span>0</span>&nbsp;Hrs&nbsp;&nbsp;&nbsp;
+					<span>0</span><span>0</span>&nbsp;Mins&nbsp;&nbsp;&nbsp;
+					<span>0</span><span>0</span>&nbsp;Secs&nbsp;&nbsp;&nbsp;
+				</div>
+				<script src="./js/countdown.js"></script>
+				<script>
+				//<!--
+					// create a new instance of the script
+					countdown({
+						'digits' : document.querySelectorAll('#countdown span'),
+						'date' : new Date('December 31, ' + (new Date().getFullYear()) + ' 23:59:59'),
+						'onEnd' : function(){
+							document.getElementById('countdown').innerHTML = 'Party Time!';
+						}
+					});
+				//-->
+				</script>
+				<!-- Cut above this -->
+
+			</aside>
+		</section>
 	</body>
 </html>
